@@ -1,2 +1,6 @@
 # sfcode
-[sfhacks'](http://www.sfhacks.club/) Programming Invitational on April 22nd, 2017
+*by [sfhacks](http://www.sfhacks.club/)*
+
+Saint Francis High School Programming Invitational
+
+April 22nd, 2017
