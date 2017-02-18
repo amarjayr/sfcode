@@ -39,7 +39,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			<!-- <h1>sfcode</h1> -->
 			<p>
 				<img src="images/sfcode_logo_light.png" alt="sfcode" style="width: 100%; max-width: 390px;"/><br/>
-				the saint francis high school <wbr/>programming invitational<br/>
+				the Saint Francis High School <wbr/>Programming Invitational<br/>
 				<!-- <span style="text-transform: lowercase;">by <a target="_blank" href="http://www.sfhacks.club">sfhacks</a></span> -->
 			</p>
 		</header>
@@ -56,9 +56,9 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			<!-- <span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span> -->
 			<div class="content">
 				<header class="major">
-					<h2>What is sfcode</h2>
+					<h2>What is sfcode?</h2>
 				</header>
-				<p>The <b>sfcode Programming Invitational</b> is a student-run coding competition hosted by <a href="http://www.sfhacks.club" target="_blank">sfhacks</a>, the programming club at<br/><a href="http://sfhs.com" target="_blank">Saint Francis High School</a> in Mountain View.<br/><br/>During the contest, students will be tasked with solving programming problems using algorithmic techniques; participants will have an opportunity to practice teamwork and creative problem-solving skills.<br/><br/>Teams from schools all over the Bay Area are invited to compete in our first ever full-scale event. Come out and show off your skill!</p>
+				<p>The <b>sfcode Programming Invitational</b> is a student-run coding competition hosted by <a href="http://www.sfhacks.club" target="_blank">sfhacks</a>, the Programming Club at<br/><a href="http://sfhs.com" target="_blank">Saint Francis High School</a> in Mountain View.<br/><br/>During the contest, students will be tasked with solving programming problems using algorithmic techniques; participants will have an opportunity to practice teamwork and creative problem-solving skills.<br/><br/>Teams from schools all over the Bay Area are invited to compete in our first-ever full-scale event. Come out and show off your skill!</p>
 			</div>
 			<a href="#two" class="goto-next scrolly">Next</a>
 		</div>
@@ -70,9 +70,9 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 			<div class="content">
 				<header class="major">
-					<h2>Save the date</h2>
+					<h2>Save the date!</h2>
 				</header>
-				<p>All dates and locations are subject to change.<br/><br/><span style="font-size: 32px;">Saturday, April 22, 2017.<br/>8:30AM to 2:30PM.</span><br/><br/><span style="font-weight: bold;">Malcolm Center, Saint Francis High School, Mountain View</span><br/><a href="https://goo.gl/maps/gMf92kdwMVm">1885 Miramonte Avenue | Mountain View, California 94040</a></p>
+				<p><i>All dates and locations are subject to change.</i><br/><br/><span style="font-size: 32px;">Saturday, April 22, 2017<br/>8:30AM to 2:30PM</span><br/><br/><span style="font-weight: bold;">Saint Francis High School, Mountain View</span><br/><a href="https://goo.gl/maps/gMf92kdwMVm">1885 Miramonte Avenue, Mountain View, CA 94040</a></p>
 			</div>
 			<a href="#three" class="goto-next scrolly">Next</a>
 		</div>
@@ -87,16 +87,16 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<h2>Logistics &amp; Details</h2>
 				</header>
 				<p>
-					Our event will host approximately 50-60 people at<br/><a href="https://goo.gl/maps/gMf92kdwMVm">Saint Francis High School’s campus</a> on Saturday, April 22, 2017.<br/>
+					Our event will host approximately 70 people at<br/><a href="https://goo.gl/maps/gMf92kdwMVm">Saint Francis High School’s campus</a> on Saturday, April 22, 2017.<br/>
 					Here is an approximate breakdown of the event schedule:
 					<ul style="text-align: left;">
-						<li><u>8:30 AM – 9:15 AM</u>: Setup and <b>Registration</b></li>
-						<li><u>9:15 AM – 9:55 AM</u>: <b>Opening Remarks</b>, including a couple words from all of our supporting partners</li>
-						<li><u>10:00 AM – 1:00 PM</u>: <b>The contest</b> itself</li>
-						<li><u>1:00 PM – 1:45 PM</u>: <b>Lunch</b>, snacks, and on-site interviews</li>
-						<li><u>1:45 PM – 2:30 PM</u>: <b>Closing Ceremony</b>, including a word from Platinum Partners and the Founding Partner</li>
+						<li><u>8:30 AM – 9:15 AM</u>: Setup and Registration</li>
+						<li><u>9:15 AM – 9:55 AM</u>: Opening Remarks</li>
+						<li><u>10:00 AM – 1:00 PM</u>: The contest itself</li>
+						<li><u>1:00 PM – 1:45 PM</u>: Lunch and snacks</li>
+						<li><u>1:45 PM – 2:30 PM</u>: Closing Ceremony</li>
 					</ul>
-					The competition will have two divisions, Advanced and Novice, each with an opportunity to win
+				The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win
 					top 3 prizes.
 				</p>
 			</div>
@@ -113,7 +113,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<h2>Sign Up</h2>
 				</header>
 				<p>
-					Teams of up to 1-3 people may register
+					Teams of up to 1-3 people may register.<br/>
 					<iframe src="https://docs.google.com/a/sfhs.com/forms/d/e/1FAIpQLSf-2uPAbJQfa9luP7Yazt3LHBA7MfYfHRkhrknRj4YQ3rZcgQ/viewform?embedded=true" width="460" height="500" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading...</iframe>
 				</p>
 			</div>
@@ -130,7 +130,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<h2>Supporting Partners</h2>
 				</header>
 				<p>
-					Partners are companies/organizations who provide support to the sfcode programming invitational in different forms.
+					Partners provide support for the sfcode Programming Invitational in different forms.
 					<div class="12u$">
 						<ul class="actions">
 							<li><a target="_blank" href="assets/sfcode Supporting Partners Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
@@ -152,7 +152,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<header class="major">
 					<h2>Meet the Team</h2>
 				</header>
-				<p>sfcode programming invitational is organized by sfhacks, the programming club at Saint Francis High School, run by a team of enthusiastic, motivated, and dedicated students.</p>
+				<p>sfcode Programming Invitational is organized by sfhacks, the SFHS Programming Club, run by a team of enthusiastic, motivated, and dedicated students.</p>
 				<ul class="icons-grid">
 					<li>
 						<a href="https://github.com/andrewke" target="_blank">
