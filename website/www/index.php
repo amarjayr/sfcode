@@ -36,8 +36,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 	<!-- Header -->
 	<section id="header">
 		<header class="major">
-			<h1>sfcode</h1>
-			<p>the programming competition by <a href="http://www.sfhacks.club">sfhacks</a></p>
+			<!-- <h1>sfcode</h1> -->
+			<p>
+				<img src="images/sfcode_logo_light.png" alt="sfcode" style="width: 100%; max-width: 390px;"/><br/>
+				the saint francis high school <wbr/>programming invitational<br/>
+				<!-- <span style="text-transform: lowercase;">by <a target="_blank" href="http://www.sfhacks.club">sfhacks</a></span> -->
+			</p>
 		</header>
 		<div class="container">
 			<ul class="actions">
@@ -120,28 +124,93 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 	<!-- Five -->
 	<section id="five" class="main special">
 		<div class="container">
-			<!-- <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span> -->
+			<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 			<div class="content">
 				<header class="major">
 					<h2>Supporting Partners</h2>
 				</header>
-				<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
+				<p>
+					Partners are companies/organizations who provide support to the sfcode programming invitational in different forms.
+					<div class="12u$">
+						<ul class="actions">
+							<li><a target="_blank" href="assets/sfcode Supporting Partners Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
+						</ul>
+					</div>
+					If you’re interested in a partnership,<br/>please email <a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a><br/>
+					or contact our moderator, Larry Steinke<br/><a href="mailto:larrysteinke@sfhs.com">larrysteinke@sfhs.com</a> – 650-210-2431
+				</p>
+			</div>
+			<a href="#six" class="goto-next scrolly">Next</a>
+		</div>
+	</section>
+
+	<!-- Six -->
+	<section id="six" class="main special">
+		<div class="container">
+			<!-- <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span> -->
+			<div class="content">
+				<header class="major">
+					<h2>Meet the Team</h2>
+				</header>
+				<p>sfcode programming invitational is organized by sfhacks, the programming club at Saint Francis High School, run by a team of enthusiastic, motivated, and dedicated students.</p>
 				<ul class="icons-grid">
 					<li>
-						<span class="icon major fa-camera-retro"></span>
-						<h3>Magna Etiam</h3>
+						<a href="https://github.com/andrewke" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Andrew Ke</h3>
+						</a>
 					</li>
 					<li>
-						<span class="icon major fa-pencil"></span>
-						<h3>Lorem Ipsum</h3>
+						<a href="https://github.com/arnav-gudibande" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Arnav Gudibande</h3>
+						</a>
 					</li>
 					<li>
-						<span class="icon major fa-code"></span>
-						<h3>Nulla Tempus</h3>
+						<a href="https://github.com/nishand17" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Nishan D'Souza</h3>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/wchern" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>William Chern</h3>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/anuvgupta" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Anuv Gupta</h3>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/amarjayr" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Amar Ramachandran</h3>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/adamegyed" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Adam Egyed</h3>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/lalzz" target="_blank">
+							<span class="icon major fa-code"></span>
+							<h3>Lalith Katta</h3>
+						</a>
 					</li>
 					<li>
 						<span class="icon major fa-coffee"></span>
-						<h3>Sed Feugiat</h3>
+						<h3>Larry Steinke</h3>
+						<i>moderator</i>
+					</li>
+					<li>
+						<span class="icon major fa-coffee"></span>
+						<h3>Mike Chechelnitsky</h3>
+						<i>moderator</i>
 					</li>
 				</ul>
 			</div>
@@ -479,10 +548,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<h2>Contact Us</h2>
 		</header>
 		<!-- <form method="post" action="#"> -->
+			<div style="padding-bottom: 15px; text-transform: lowercase;">Leave us a message here</div>
 			<div class="row uniform">
 				<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 				<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-				<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+				<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4" style="resize: vertical;"></textarea></div>
 				<div class="12u$">
 					<ul class="actions">
 						<li><input type="submit" value="Send Message" class="special" id="sendmessagebtn"/></li>
@@ -491,6 +561,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				<div id = 'formOutput' style="text-align: center; width: 100%;"></div>
 			</div>
 		<!-- </form> -->
+		<div style="padding-top: 5px; text-transform: lowercase;">or shoot us an email at<br/><a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a></div>
 	</div>
 	<footer>
 		<!-- <ul class="icons">
