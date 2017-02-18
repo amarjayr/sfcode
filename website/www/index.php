@@ -56,6 +56,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 		#icon-table .right {
 			width: 50%;
 		}*/
+		.border-bottom {
+			border-bottom: 1px solid #BBB;
+		}
+		.border-top {
+			border-top: 1px solid #BBB;
+		}
 	</style>
 </head>
 <body>
@@ -160,7 +166,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					Partners provide support for the sfcode Programming Invitational in different forms.
 					<div class="12u$">
 						<ul class="actions">
-							<li><a target="_blank" href="assets/sfcode Supporting Partners Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
+							<li><a target="_blank" href="assets/sfcode Partnership Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
 						</ul>
 					</div>
 					If you’re interested in a partnership,<br/>please email <a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a><br/>
@@ -182,19 +188,19 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<p>sfcode Programming Invitational is organized by sfhacks, the SFHS Programming Club, run by a team of enthusiastic, motivated, and dedicated students.</p>
 				<table id="icon-table">
 					<tr>
-						<td colspan="2">
+						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/andrewke" target="_blank">
 								<span class="icon major profile-icon left top" data="andrew"><img src="images/profiles/andrew.jpeg"/></span>
 								<h3>Andrew</h3>
 							</a>
 						</td>
-						<td colspan="2">
+						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/arnav-gudibande" target="_blank">
 								<span class="icon major profile-icon right top" data="arnav"><img src="images/profiles/arnav.jpeg"/></span>
 								<h3>Arnav</h3>
 							</a>
 						</td>
-						<td colspan="2">
+						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/nishand17" target="_blank">
 								<span class="icon major profile-icon left"><img src="images/profiles/nishan.jpeg"/></span>
 								<h3>Nishan</h3>
@@ -202,33 +208,33 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						</td>
 					</tr>
 					<tr>
-						<td colspan="2">
+						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/wchern" target="_blank">
 								<span class="icon major profile-icon right"><img src="images/profiles/chern.jpeg"/></span>
 								<h3>William</h3>
 							</a>
 						</td>
-						<td colspan="2">
-							<a href="https://github.com/amarjayr" target="_blank">
-								<span class="icon major profile-icon right"><img src="images/profiles/amar.jpeg"/></span>
-								<h3>Amar</h3>
-							</a>
-						</td>
-						<td colspan="2">
+						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/anuvgupta" target="_blank">
 								<span class="icon major profile-icon left"><img src="images/profiles/anuv.jpeg"/></span>
 								<h3>Anuv</h3>
 							</a>
 						</td>
+						<td colspan="2" class="border-bottom">
+							<a href="https://github.com/amarjayr" target="_blank">
+								<span class="icon major profile-icon right"><img src="images/profiles/amar.jpeg"/></span>
+								<h3>Amar</h3>
+							</a>
+						</td>
 					</tr>
 					<tr>
-						<td colspan="3">
+						<td colspan="3" class="border-bottom">
 							<a href="https://github.com/adamegyed" target="_blank">
 								<span class="icon major profile-icon left"><img src="images/profiles/adam.jpeg"/></span>
 								<h3>Adam</h3>
 							</a>
 						</td>
-						<td colspan="3">
+						<td colspan="3" class="border-bottom">
 							<a href="https://github.com/lalzz" target="_blank">
 								<span class="icon major profile-icon right"><img src="images/profiles/lalith.jpeg"/></span>
 								<h3>Lalith</h3>
@@ -236,17 +242,17 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						</td>
 					</tr>
 					<tr>
-						<td colspan="2">
+						<td colspan="2" class="border-top">
 							<span class="icon major profile-icon middle bottom"><img src="images/profiles/chech.jpeg"/></span>
 							<h3>Mr. Chech</h3>
 							<i>mentor</i>
 						</td>
-						<td colspan="2">
+						<td colspan="2" class="border-top">
 							<span class="icon major profile-icon left"><img src="images/profiles/steinke.jpeg"/></span>
 							<h3>Mr. Steinke</h3>
 							<i>moderator</i>
 						</td>
-						<td colspan="2">
+						<td colspan="2" class="border-top">
 							<span class="icon major profile-icon right"><img src="images/profiles/abot.jpeg"/></span>
 							<h3>Ms. Abot</h3>
 							<i>moderator</i>
