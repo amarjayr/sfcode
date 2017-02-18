@@ -30,6 +30,33 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
 	<link rel="apple-touch-icon" href="images/icons/icon_mobile.png"/>
+	<style type="text/css">
+		#icon-table {
+			background: none;
+			border-collapse: separate;
+		}
+		#icon-table tr {
+			background: none;
+		}
+		#icon-table td {
+			background: none;
+			text-align: center;
+		}
+		.icon.major.profile-icon {
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		#icon-table h3 {
+			margin: 0;
+			margin-bottom: 5px;
+		}
+		/*#icon-table .left {
+			width: 50%;
+		}
+		#icon-table .right {
+			width: 50%;
+		}*/
+	</style>
 </head>
 <body>
 
@@ -89,7 +116,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<p>
 					Our event will host approximately 70 people at<br/><a href="https://goo.gl/maps/gMf92kdwMVm">Saint Francis High School’s campus</a> on Saturday, April 22, 2017.<br/>
 					Here is an approximate breakdown of the event schedule:
-					<ul style="text-align: left;">
+					<ul style="text-align: left; margin-left: 30px;">
 						<li><u>8:30 AM – 9:15 AM</u>: Setup and Registration</li>
 						<li><u>9:15 AM – 9:55 AM</u>: Opening Remarks</li>
 						<li><u>10:00 AM – 1:00 PM</u>: The contest itself</li>
@@ -153,66 +180,79 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<h2>Meet the Team</h2>
 				</header>
 				<p>sfcode Programming Invitational is organized by sfhacks, the SFHS Programming Club, run by a team of enthusiastic, motivated, and dedicated students.</p>
-				<ul class="icons-grid">
-					<li>
-						<a href="https://github.com/andrewke" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Andrew Ke</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/arnav-gudibande" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Arnav Gudibande</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/nishand17" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Nishan D'Souza</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/wchern" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>William Chern</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/anuvgupta" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Anuv Gupta</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/amarjayr" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Amar Ramachandran</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/adamegyed" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Adam Egyed</h3>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/lalzz" target="_blank">
-							<span class="icon major fa-code"></span>
-							<h3>Lalith Katta</h3>
-						</a>
-					</li>
-					<li>
-						<span class="icon major fa-coffee"></span>
-						<h3>Larry Steinke</h3>
-						<i>moderator</i>
-					</li>
-					<li>
-						<span class="icon major fa-coffee"></span>
-						<h3>Mike Chechelnitsky</h3>
-						<i>moderator</i>
-					</li>
-				</ul>
+				<table id="icon-table">
+					<tr>
+						<td colspan="2">
+							<a href="https://github.com/andrewke" target="_blank">
+								<span class="icon major profile-icon left top" data="andrew"><img src="images/profiles/andrew.jpeg"/></span>
+								<h3>Andrew</h3>
+							</a>
+						</td>
+						<td colspan="2">
+							<a href="https://github.com/arnav-gudibande" target="_blank">
+								<span class="icon major profile-icon right top" data="arnav"><img src="images/profiles/arnav.jpeg"/></span>
+								<h3>Arnav</h3>
+							</a>
+						</td>
+						<td colspan="2">
+							<a href="https://github.com/nishand17" target="_blank">
+								<span class="icon major profile-icon left"><img src="images/profiles/nishan.jpeg"/></span>
+								<h3>Nishan</h3>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<a href="https://github.com/wchern" target="_blank">
+								<span class="icon major profile-icon right"><img src="images/profiles/chern.jpeg"/></span>
+								<h3>William</h3>
+							</a>
+						</td>
+						<td colspan="2">
+							<a href="https://github.com/amarjayr" target="_blank">
+								<span class="icon major profile-icon right"><img src="images/profiles/amar.jpeg"/></span>
+								<h3>Amar</h3>
+							</a>
+						</td>
+						<td colspan="2">
+							<a href="https://github.com/anuvgupta" target="_blank">
+								<span class="icon major profile-icon left"><img src="images/profiles/anuv.jpeg"/></span>
+								<h3>Anuv</h3>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<a href="https://github.com/adamegyed" target="_blank">
+								<span class="icon major profile-icon left"><img src="images/profiles/adam.jpeg"/></span>
+								<h3>Adam</h3>
+							</a>
+						</td>
+						<td colspan="3">
+							<a href="https://github.com/lalzz" target="_blank">
+								<span class="icon major profile-icon right"><img src="images/profiles/lalith.jpeg"/></span>
+								<h3>Lalith</h3>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<span class="icon major profile-icon middle bottom"><img src="images/profiles/chech.jpeg"/></span>
+							<h3>Mr. Chech</h3>
+							<i>mentor</i>
+						</td>
+						<td colspan="2">
+							<span class="icon major profile-icon left"><img src="images/profiles/steinke.jpeg"/></span>
+							<h3>Mr. Steinke</h3>
+							<i>moderator</i>
+						</td>
+						<td colspan="2">
+							<span class="icon major profile-icon right"><img src="images/profiles/abot.jpeg"/></span>
+							<h3>Ms. Abot</h3>
+							<i>moderator</i>
+						</td>
+					</tr>
+				</table>
 			</div>
 			<a href="#footer" class="goto-next scrolly">Next</a>
 		</div>
