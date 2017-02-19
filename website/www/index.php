@@ -196,7 +196,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						</td>
 						<td colspan="2" class="border-bottom">
 							<a href="https://github.com/arnav-gudibande" target="_blank">
-								<span class="icon major profile-icon right top" data="arnav"><img src="images/profiles/arnav.jpeg"/></span>
+								<span class="icon major profile-icon right top" data="arnav"><img src="images/profiles/abot.jpeg"/></span>
 								<h3>Arnav</h3>
 							</a>
 						</td>
