@@ -253,7 +253,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 							<i>moderator</i>
 						</td>
 						<td colspan="2" class="border-top">
-							<span class="icon major profile-icon right"><img src="images/profiles/abot.jpeg"/></span>
+							<span class="icon major profile-icon right"><img src="images/profiles/image.png"/></span>
 							<h3>Ms. Abot</h3>
 							<i>moderator</i>
 						</td>
