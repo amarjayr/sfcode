@@ -159,15 +159,16 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<p>
 					Our event will host approximately 70 people at<br/><a href="https://goo.gl/maps/gMf92kdwMVm">Saint Francis High School’s campus</a> on Saturday, April 22, 2017.<br/>
 					Here is an approximate breakdown of the event schedule:
-					<ul style="text-align: left; margin-left: 30px;">
-						<li><u>8:30 AM – 9:15 AM</u>: Setup and Registration</li>
-						<li><u>9:15 AM – 9:55 AM</u>: Opening Remarks</li>
-						<li><u>10:00 AM – 1:00 PM</u>: The contest itself</li>
-						<li><u>1:00 PM – 1:45 PM</u>: Lunch and snacks</li>
-						<li><u>1:45 PM – 2:30 PM</u>: Closing Ceremony</li>
-					</ul>
-				The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win
-					top 3 prizes.
+					<div style="width: 100%; max-width: 500px; margin: 0 auto;">
+						<ul style="text-align: left; margin-left: 30px;">
+							<li><u>8:30 AM – 9:15 AM</u>: Setup and Registration</li>
+							<li><u>9:15 AM – 9:55 AM</u>: Opening Remarks</li>
+							<li><u>10:00 AM – 1:00 PM</u>: The contest itself</li>
+							<li><u>1:00 PM – 1:45 PM</u>: Lunch and snacks</li>
+							<li><u>1:45 PM – 2:30 PM</u>: Closing Ceremony</li>
+						</ul>
+					</div>
+					The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win top 3 prizes.
 				</p>
 			</div>
 			<a href="#four" class="goto-next scrolly">Next</a>
