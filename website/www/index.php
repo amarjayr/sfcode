@@ -62,6 +62,41 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 		.border-top {
 			border-top: 1px solid #BBB;
 		}
+		.container {
+			width: 70%;
+		}
+
+		#meet {
+			padding: 60px 40px;
+		}
+		.main #meet .sixp {
+			width: auto;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		#footer .container.foot-container {
+			padding: 5em 2.5em 3em 2.5em;
+		}
+
+		@media screen and (min-width: 1000px) {
+			.container {
+				padding-left: 12%;
+				padding-right: 12%;
+			}
+			.main .container {
+				padding-left: 12%;
+				padding-right: 12%;
+			}
+			.main #meet .sixp {
+				width: 100%;
+				padding-left: 12%;
+				padding-right: 12%;
+			}
+			#footer .container.foot-container {
+				padding: 5em 12% 3em 12%;
+			}
+		}
 	</style>
 </head>
 <body>
@@ -76,10 +111,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<!-- <span style="text-transform: lowercase;">by <a target="_blank" href="http://www.sfhacks.club">sfhacks</a></span> -->
 			</p>
 		</header>
-		<div class="container">
-			<ul class="actions">
-				<li><a href="#one" class="button special scrolly">Learn More</a></li>
-			</ul>
+		<div class="container" style="padding: 0; width: 100%; margin-left: 0; left: 0; height: 127px; background-color: rgba(255, 255, 255, 0);">
+			<div style="display: table; vertical-align: middle; width: 70%; height: 100%; margin: 0 auto; background-color: rgba(255, 255, 255, 0.95)">
+				<ul class="actions" style="display: table-cell; vertical-align: middle;">
+					<li><a href="#one" class="button special scrolly">Learn More</a></li>
+				</ul>
+			</div>
 		</div>
 	</section>
 
@@ -105,7 +142,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<header class="major">
 					<h2>Save the date!</h2>
 				</header>
-				<p><i>All dates and locations are subject to change.</i><br/><br/><span style="font-size: 32px;">Saturday, April 22, 2017<br/>8:30AM to 2:30PM</span><br/><br/><span style="font-weight: bold;">Saint Francis High School, Mountain View</span><br/><a href="https://goo.gl/maps/gMf92kdwMVm">1885 Miramonte Avenue, Mountain View, CA 94040</a></p>
+				<p><i>All dates and locations are set in stone.</i><br/><br/><span style="font-size: 32px;">Saturday, April 22, 2017<br/>8:30AM to 2:30PM</span><br/><br/><span style="font-weight: bold;">Saint Francis High School, Mountain View</span><br/><a href="https://goo.gl/maps/gMf92kdwMVm">1885 Miramonte Avenue, Mountain View, CA 94040</a></p>
 			</div>
 			<a href="#three" class="goto-next scrolly">Next</a>
 		</div>
@@ -179,86 +216,39 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 
 	<!-- Six -->
 	<section id="six" class="main special">
-		<div class="container">
+		<div class="container" id="meet">
 			<!-- <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span> -->
 			<div class="content">
 				<header class="major">
 					<h2>Meet the Team</h2>
 				</header>
-				<p>sfcode Programming Invitational is organized by sfhacks, the SFHS Programming Club, run by a team of enthusiastic, motivated, and dedicated students.</p>
-				<table id="icon-table">
-					<tr>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/andrewke" target="_blank">
-								<span class="icon major profile-icon left top" data="andrew"><img src="images/profiles/andrew.jpeg"/></span>
-								<h3>Andrew</h3>
-							</a>
-						</td>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/arnav-gudibande" target="_blank">
-								<span class="icon major profile-icon right top" data="arnav"><img src="images/profiles/abot.jpeg"/></span>
-								<h3>Arnav</h3>
-							</a>
-						</td>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/nishand17" target="_blank">
-								<span class="icon major profile-icon left"><img src="images/profiles/nishan.jpeg"/></span>
-								<h3>Nishan</h3>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/wchern" target="_blank">
-								<span class="icon major profile-icon right"><img src="images/profiles/chern.jpeg"/></span>
-								<h3>William</h3>
-							</a>
-						</td>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/anuvgupta" target="_blank">
-								<span class="icon major profile-icon left"><img src="images/profiles/anuv.jpeg"/></span>
-								<h3>Anuv</h3>
-							</a>
-						</td>
-						<td colspan="2" class="border-bottom">
-							<a href="https://github.com/amarjayr" target="_blank">
-								<span class="icon major profile-icon right"><img src="images/profiles/amar.jpeg"/></span>
-								<h3>Amar</h3>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="3" class="border-bottom">
-							<a href="https://github.com/adamegyed" target="_blank">
-								<span class="icon major profile-icon left"><img src="images/profiles/adam.jpeg"/></span>
-								<h3>Adam</h3>
-							</a>
-						</td>
-						<td colspan="3" class="border-bottom">
-							<a href="https://github.com/lalzz" target="_blank">
-								<span class="icon major profile-icon right"><img src="images/profiles/lalith.jpeg"/></span>
-								<h3>Lalith</h3>
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td colspan="2" class="border-top">
-							<span class="icon major profile-icon middle bottom"><img src="images/profiles/chech.jpeg"/></span>
-							<h3>Mr. Chech</h3>
-							<i>mentor</i>
-						</td>
-						<td colspan="2" class="border-top">
-							<span class="icon major profile-icon left"><img src="images/profiles/steinke.jpeg"/></span>
-							<h3>Mr. Steinke</h3>
-							<i>moderator</i>
-						</td>
-						<td colspan="2" class="border-top">
-							<span class="icon major profile-icon right"><img src="images/profiles/image.png"/></span>
-							<h3>Ms. Abot</h3>
-							<i>moderator</i>
-						</td>
-					</tr>
-				</table>
+				<div class="sixp">
+					<p>sfcode Programming Invitational is organized by sfhacks, the SFHS Programming Club, run by a team of enthusiastic, motivated, and dedicated students.</p>
+				</div>
+				<img style="width: 100%;" src="images/profiles/group.jpeg"/><br/>
+				<div class="sixp">
+					<span>Top Row: Nishan D'Souza, Anuv Gupta, Andrew Ke</span><br/>
+					<span>Bottom Row: Lalith Katta, Arnav Gudibande, Amar Ramachandran, William Chern, Adam Egyed</span>
+					<hr style="width: 90%; margin: 20px auto;"/>
+					<div style="display: inline-block; padding: 1px 25px;">
+						<span class="icon major profile-icon left"><img src="images/profiles/steinke.jpeg"/></span>
+						<h3>Mr. Steinke</h3>
+						<i>moderator</i>
+					</div>
+					<div style="display: inline-block; padding: 1px 25px;">
+						<span class="icon major profile-icon middle bottom"><img src="images/profiles/chech.jpeg"/></span>
+						<h3>Mr. Chech</h3>
+						<i>mentor</i>
+					</div>
+					<div style="display: inline-block; padding: 1px 25px;">
+						<span class="icon major profile-icon right"><img src="images/profiles/abot.jpeg"/></span>
+						<h3>Ms. Abot</h3>
+						<i>moderator</i>
+					</div>
+				</div>
+				<br/>
+				<br/>
+				<br/>
 			</div>
 			<a href="#footer" class="goto-next scrolly">Next</a>
 		</div>
@@ -589,7 +579,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 <!-- Footer -->
 <section id="footer">
-	<div class="container">
+	<div class="container foot-container">
 		<header class="major">
 			<h2>Contact Us</h2>
 		</header>
