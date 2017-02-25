@@ -201,12 +201,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<h2>Supporting Partners</h2>
 				</header>
 				<p>
-					Partners provide support for the sfcode Programming Invitational in different forms.
-					<div class="12u$">
+					Partners provide support for the sfcode Programming Invitational in different forms.<br/><br/>
+					<!-- <div class="12u$">
 						<ul class="actions">
 							<li><a target="_blank" href="assets/sfcode Partnership Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
 						</ul>
-					</div>
+					</div> -->
 					If you’re interested in a partnership,<br/>please email <a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a><br/>
 					or contact our moderator, Larry Steinke<br/><a href="mailto:larrysteinke@sfhs.com">larrysteinke@sfhs.com</a> – 650-210-2431
 				</p>
