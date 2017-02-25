@@ -128,7 +128,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<header class="major">
 					<h2>What is sfcode?</h2>
 				</header>
-				<p>The <b>sfcode Programming Invitational</b> is a student-run coding competition hosted by <a href="http://www.sfhacks.club" target="_blank">sfhacks</a>, the Programming Club at<br/><a href="http://sfhs.com" target="_blank">Saint Francis High School</a> in Mountain View.<br/><br/>During the contest, students will be tasked with solving programming problems using algorithmic techniques; participants will have an opportunity to practice teamwork and creative problem-solving skills.<br/><br/>Teams from schools all over the Bay Area are invited to compete in our first-ever full-scale event. Come out and show off your skill!</p>
+				<p>The <b>sfcode Programming Invitational</b> is a student-run coding competition hosted by <a href="http://www.sfhacks.club" target="_blank">sfhacks</a>, the Programming Club at <a href="http://sfhs.com" target="_blank">Saint Francis High School</a> in Mountain View.<br/><br/>During the contest, students will be tasked with solving programming problems using algorithmic techniques; participants will have an opportunity to practice teamwork and creative problem-solving skills.<br/><br/>Teams from schools all over the Bay Area are invited to compete in our first-ever full-scale event. Come out and show off your skill!</p>
 			</div>
 			<a href="#two" class="goto-next scrolly">Next</a>
 		</div>
@@ -185,7 +185,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				</header>
 				<p>
 					Teams of up to 1-3 people may register.<br/>
-					<iframe src="https://docs.google.com/a/sfhs.com/forms/d/e/1FAIpQLSf-2uPAbJQfa9luP7Yazt3LHBA7MfYfHRkhrknRj4YQ3rZcgQ/viewform?embedded=true" width="460" height="500" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%;">Loading...</iframe>
+					<iframe src="https://docs.google.com/a/sfhs.com/forms/d/e/1FAIpQLSf-2uPAbJQfa9luP7Yazt3LHBA7MfYfHRkhrknRj4YQ3rZcgQ/viewform?embedded=true" width="460" height="500" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%; max-width: 600px;">Loading...</iframe>
 				</p>
 			</div>
 			<a href="#five" class="goto-next scrolly">Next</a>
@@ -228,8 +228,8 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				</div>
 				<img style="width: 100%;" src="images/profiles/group.jpeg"/><br/>
 				<div class="sixp">
-					<span>Top Row: Nishan D'Souza, Anuv Gupta, Andrew Ke</span><br/>
-					<span>Bottom Row: Lalith Katta, Arnav Gudibande, Amar Ramachandran, William Chern, Adam Egyed</span>
+					<span>Top Row: <a href="https://github.com/nishand17" target="_blank">Nishan D'Souza</a>, <a href="https://github.com/anuvgupta" target="_blank">Anuv Gupta</a>, <a href="https://github.com/andrewke" target="_blank">Andrew Ke</a></span><br/>
+					<span>Bottom Row: <a href="https://github.com/lalzz" target="_blank">Lalith Katta</a>, <a href="https://github.com/arnav-gudibande" target="_blank">Arnav Gudibande</a>, <a href="https://github.com/amarjayr" target="_blank">Amar Ramachandran</a>, <a href="https://github.com/wchern" target="_blank">William Chern</a>, <a href="https://github.com/adamegyed" target="_blank">Adam Egyed</a></span>
 					<hr style="width: 90%; margin: 20px auto;"/>
 					<div style="display: inline-block; padding: 1px 25px;">
 						<span class="icon major profile-icon left"><img src="images/profiles/steinke.jpeg"/></span>
