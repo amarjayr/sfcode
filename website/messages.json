@@ -13,5 +13,35 @@
         "name": "Maya",
         "email": "mayapugatch@sfhs.com",
         "message": "Hi I was wondering how I could get more information as I am interested in being a sponsor and getting board membership."
+    },
+    {
+        "name": "test",
+        "email": "test@test.com",
+        "message": "test"
+    },
+    {
+        "name": "Test",
+        "email": "test",
+        "message": "Test"
+    },
+    {
+        "name": "Test",
+        "email": "test",
+        "message": "Test"
+    },
+    {
+        "name": "Henry Xiang",
+        "email": "henryxiang@gmail.com",
+        "message": "Where can I find the official rules for this coding competition? Specifically, I'd like to know:\n1) what programming languages are allowed, \n2) how do I submit my code,\n3) what are the input and output format,\n4) can I use my own computer to write code. (if so, how many computers are allowed for each team)\n5) can I see some sample questions for the competition.\n\nI will appreciate your answers.\n"
+    },
+    {
+        "name": "Arjun Manoj",
+        "email": "narayanmanoj@yahoo.com",
+        "message": "Hi...do we need the teacher name and email id ? I don't have a teacher working with me in school on coding, but I have competed in USACO and other coding competitions on my own. Please let me know.\nArjun"
+    },
+    {
+        "name": "Arjun Manoj",
+        "email": "narayanmanoj@yahoo.com",
+        "message": "Hi...do we need the teacher name and email id ? I don't have a teacher working with me in school on coding, but I have competed in USACO and other coding competitions on my own. Please let me know.\nArjun"
     }
 ]

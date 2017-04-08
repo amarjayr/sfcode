@@ -6,7 +6,8 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 	array_push($messages, [
 		'name' => $_POST['name'],
 		'email' => $_POST['email'],
-		'message' => $_POST['message']
+		'message' => $_POST['message'],
+		'timstamp' => date_timestamp_get()
 	]);
 	if (file_put_contents('../messages.json', json_encode($messages, JSON_PRETTY_PRINT)) === false)
 		die('Could not save message');
@@ -102,6 +103,13 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			}
 		}
 
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
 		#custom-main {
 			height: 100%;
 			width: 100%;
@@ -150,9 +158,10 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 		<a href="#one" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">What Is sfcode?</div></div></a>
 		<a href="#two" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Save the Date!</div></div></a>
 		<a href="#three" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Logistics &amp; Details</div></div></a>
-		<a href="#four" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Sign Up</div></div></a>
-		<a href="#five" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Supporting Partners</div></div></a>
-		<a href="#six" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Meet the Team</div></div></a>
+		<a href="#four" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">FAQ</div></div></a>
+		<a href="#five" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Sign Up</div></div></a>
+		<a href="#six" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Supporting Partners</div></div></a>
+		<a href="#seven" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Meet the Team</div></div></a>
 		<a href="#footer" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Contact Us</div></div></a>
 	</div>
 	<div id="custom-main">
@@ -166,6 +175,9 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<!-- <span style="text-transform: lowercase;">by <a target="_blank" href="http://www.sfhacks.club">sfhacks</a></span> -->
 				</p>
 			</header>
+			<div style="width: 100%; height 100%; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+				<!-- scrolling aid -->
+			</div>
 			<div class="container" id="topbarcont" style="padding: 0; width: 70%; margin: auto; left: 15%; height: 127px; background-color: rgba(255, 255, 255, 0);">
 				<div style="display: table; vertical-align: middle; width: 100%; height: 100%; margin: 0 auto; background-color: rgba(255, 255, 255, 0.95)">
 					<ul class="actions" style="display: table-cell; vertical-align: middle;">
@@ -236,6 +248,22 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 				<div class="content">
 					<header class="major">
+						<h2>FAQ</h2>
+					</header>
+					<p>
+						Coming soon.
+					</p>
+				</div>
+				<a href="#five" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+
+		<!-- Five -->
+		<section id="five" class="main special">
+			<div class="container">
+				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
+				<div class="content">
+					<header class="major">
 						<h2>Sign Up</h2>
 					</header>
 					<p>
@@ -245,12 +273,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						</div>
 					</p>
 				</div>
-				<a href="#five" class="goto-next scrolly">Next</a>
+				<a href="#six" class="goto-next scrolly">Next</a>
 			</div>
 		</section>
 
-		<!-- Five -->
-		<section id="five" class="main special">
+		<!-- Six -->
+		<section id="six" class="main special">
 			<div class="container">
 				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 				<div class="content">
@@ -268,12 +296,12 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						or contact our moderator, Larry Steinke<br/><a href="mailto:larrysteinke@sfhs.com">larrysteinke@sfhs.com</a> – 650-210-2431
 					</p>
 				</div>
-				<a href="#six" class="goto-next scrolly">Next</a>
+				<a href="#seven" class="goto-next scrolly">Next</a>
 			</div>
 		</section>
 
-		<!-- Six -->
-		<section id="six" class="main special">
+		<!-- Seven -->
+		<section id="seven" class="main special">
 			<div class="container" id="meet">
 				<!-- <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span> -->
 				<div class="content">
@@ -478,6 +506,16 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 		$('a.goto-next.scrolly').click(function () {
 			var id = $(this).attr('href');
 			$custommain.stop().animate({ scrollTop: $(id).position().top + $custommain.scrollTop() }, '2000');
+		});
+
+		var headermajor = $('#header .major');
+		$custommain.scroll(function () {
+			var bottom = window.innerHeight * 0.36;
+			var scrolltop = $custommain.scrollTop();
+			if (scrolltop > bottom)
+				scrolltop = bottom;
+			var opacity = 1 - scrolltop / bottom;
+			headermajor.css('opacity', opacity + '');
 		});
 
 	</script>
