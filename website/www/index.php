@@ -3,11 +3,16 @@
 if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_POST['message'])) {
 	$messages = json_decode(file_get_contents('../messages.json'), true);
 	$messages = array_values($messages);
+
+	date_default_timezone_set("America/Los_Angeles");
+	$date = new DateTime();
+	$time = $date->getTimestamp();
+
 	array_push($messages, [
 		'name' => $_POST['name'],
 		'email' => $_POST['email'],
 		'message' => $_POST['message'],
-		'timstamp' => date_timestamp_get()
+		'timestamp' => $time
 	]);
 	if (file_put_contents('../messages.json', json_encode($messages, JSON_PRETTY_PRINT)) === false)
 		die('Could not save message');
@@ -251,7 +256,34 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						<h2>FAQ</h2>
 					</header>
 					<p>
-						Coming soon.
+						<div style="width: 100%; max-width: 700px; margin: 0 auto;">
+							<ol style="text-align: left; margin-left: 30px;">
+								<li>
+									<b>What programming languages will be accepted?</b><br/>
+									C, C++, Python 2.7, Java 8
+								</li>
+								<!-- <li>
+									<b>How will the code be submitted?</b><br/>
+									Problems (also referred to as tasks) are submitted through cms (<a href="https://github.com/cms-dev/cms">https://github.com/cms-dev/cms</a>) the same system that handles submissions for IOI, FARIO, BOI, APIO, CEOI, and RMI. Submitted programs are run in a sandbox with the following compilation commands (file <code>Batch</code>):<br/>
+									C11: <code>/usr/bin/gcc -DEVAL -std=c11 -O2 -pipe -static -s -o Batch Batch.c -lm</code><br/>
+									C++11: <code>/usr/bin/g++ -DEVAL -std=c++11 -O2 -pipe -static -s -o Batch Batch.cpp</code><br/>
+									Python: <code>/usr/bin/python2 -m py_compile Batch.py &amp;&amp; /bin/mv Batch.pyc Batch</code><br/>
+									Java: <code>/usr/bin/javac Batch.java &amp;&amp; /bin/bash -c /usr/bin/jar cf Batch.jar *.class &amp;&amp; /bin/mv Batch.jar Batch</code>
+								</li>
+								<li>
+									<b>What are the input and output formats?</b><br/>
+									Input will be read through stdin and output will be printed out to stdout for every language. For each problem, there will be sample input/output examples as well as a brief on the format of input and expected output.
+								</li> -->
+								<li>
+									<b>Is there a team limit?</b><br/>
+									Teams may consist of 1-3 people.
+								</li>
+								<li>
+									<b>May we bring our own computers? If so, is there a limit on number of computers per team?</b><br/>
+									Contestants are encouraged to bring their own computers. Each team will be limited to 1 computer only (that is, 1 display and 1 keyboard).
+								</li>
+							</ol>
+						</div>
 					</p>
 				</div>
 				<a href="#five" class="goto-next scrolly">Next</a>
