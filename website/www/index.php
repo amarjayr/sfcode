@@ -282,6 +282,11 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 									<b>May we bring our own computers? If so, is there a limit on number of computers per team?</b><br/>
 									Contestants are encouraged to bring their own computers. Each team will be limited to 1 computer only (that is, 1 display and 1 keyboard).
 								</li>
+                                <li>
+                                    <b>Is there a sample problem?</b>
+                                    <br/>
+                                    A sample problem for sfcode can be found <a href="assets/sfcodeSample.pdf">here</a>.
+                                </li>
 							</ol>
 						</div>
 					</p>
