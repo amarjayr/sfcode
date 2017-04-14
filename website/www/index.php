@@ -324,7 +324,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						<li><a target="_blank" href="assets/sfcode Partnership Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
 						</ul>
 						</div> -->
-						If you’re interested in a partnership,<br/>please email <a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a><br/>
+						If you’re interested in a partnership,<br/>please email <a href="mailto:sfhacks@sfhs.com">sfhacks@sfhs.com</a><br/>
 						or contact our moderator, Larry Steinke<br/><a href="mailto:larrysteinke@sfhs.com">larrysteinke@sfhs.com</a> – 650-210-2431
 					</p>
 				</div>
@@ -392,7 +392,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 					<div id = 'formOutput' style="text-align: center; width: 100%;"></div>
 				</div>
 				<!-- </form> -->
-				<div style="padding-top: 5px; text-transform: lowercase;">or shoot us an email at<br/><a href="mailto:contact@sfhacks.club">contact@sfhacks.club</a></div>
+				<div style="padding-top: 5px; text-transform: lowercase;">or shoot us an email at<br/><a href="mailto:sfhacks@sfhs.com">sfhacks@sfhs.com</a></div>
 			</div>
 			<footer>
 				<!-- <ul class="icons">
