@@ -158,16 +158,16 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			<div id="custom-nav-img" style="background: url('images/icons/hamburger.png') no-repeat right top; background-size: contain; height: 21px; width: 20px; margin: 0 auto;"></div>
 		</div>
 	</div>
-	<div id="custom-menu" style='z-index: 20; height: 400px; width: 100%; position: absolute; top: -400px; transition: top 0.3s ease-in-out; left: 0; right: 0; background: url("images/overlay.png"), url("images/navPanel.svg"), -webkit-linear-gradient(top, rgba(80, 80, 80, 1), rgba(20, 20, 20, 1))'>
-		<a href="#header" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">sfcode</div></div></a>
-		<a href="#one" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">What Is sfcode?</div></div></a>
-		<a href="#two" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Save the Date!</div></div></a>
-		<a href="#three" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Logistics &amp; Details</div></div></a>
-		<a href="#four" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">FAQ</div></div></a>
+	<div id="custom-menu" style='z-index: 20; height: 400px; width: 100%; position: absolute; top: -400px; transition: top 0.3s ease-in-out; left: 0; right: 0;'>
+		<a href="#header" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">sfcode</div></div></a><!--
+		--><a href="#one" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">What Is sfcode?</div></div></a><!--
+		--><a href="#two" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Save the Date!</div></div></a><!--
+		--><a href="#three" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">FAQ</div></div></a><!--
+		--><a href="#four" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Logistics &amp; Details</div></div></a><!--
 		<a href="#five" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Sign Up</div></div></a>
 		<a href="#six" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Supporting Partners</div></div></a>
-		<a href="#seven" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Meet the Team</div></div></a>
-		<a href="#footer" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Contact Us</div></div></a>
+		--><a href="#seven" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Meet the Team</div></div></a><!--
+		--><a href="#footer" class="goto-next scrolly custom-menu-item-a"><div class="custom-menu-item"><div class="custom-menu-item-sub">Contact Us</div></div></a>
 	</div>
 	<div id="custom-main">
 		<!-- Header -->
@@ -226,6 +226,55 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 				<div class="content">
 					<header class="major">
+						<h2>FAQ</h2>
+					</header>
+					<p>
+						<div style="width: 100%; max-width: 700px; margin: 0 auto;">
+							<ol style="text-align: left; margin-left: 30px;">
+								<li>
+									<b>What programming languages will be accepted?</b><br/>
+									C, C++, Python 2.7, Java 8
+								</li>
+								<!--
+									<li>
+										<b>How will the code be submitted?</b><br/>
+										Problems (also referred to as tasks) are submitted through cms (<a href="https://github.com/cms-dev/cms">https://github.com/cms-dev/cms</a>) the same system that handles submissions for IOI, FARIO, BOI, APIO, CEOI, and RMI. Submitted programs are run in a sandbox with the following compilation commands (file <code>Batch</code>):<br/>
+										C11: <code>/usr/bin/gcc -DEVAL -std=c11 -O2 -pipe -static -s -o Batch Batch.c -lm</code><br/>
+										C++11: <code>/usr/bin/g++ -DEVAL -std=c++11 -O2 -pipe -static -s -o Batch Batch.cpp</code><br/>
+										Python: <code>/usr/bin/python2 -m py_compile Batch.py &amp;&amp; /bin/mv Batch.pyc Batch</code><br/>
+										Java: <code>/usr/bin/javac Batch.java &amp;&amp; /bin/bash -c /usr/bin/jar cf Batch.jar *.class &amp;&amp; /bin/mv Batch.jar Batch</code>
+									</li>
+								-->
+								<li>
+									<b>Is there a team limit?</b><br/>
+									Teams may consist of 1-3 people.
+								</li>
+								<li>
+									<b>May we bring our own computers? If so, is there a limit on number of computers per team?</b><br/>
+									Contestants are encouraged to bring their own computers. Each team will be limited to 1 computer only (that is, 1 display and 1 keyboard).
+								</li>
+                                <li>
+                                    <b>Is there a sample problem?</b><br/>
+                                    A sample problem for sfcode can be found <a target="_blank" href="assets/sfcodeSample.pdf">here</a>.
+                                </li>
+								<li>
+									<b>What are the input and output formats?</b><br/>
+									Input will be read through stdin and output will be printed out to stdout for every language. For each problem, there will be sample input/output examples as well as a brief on the format of input and expected output.
+								</li>
+							</ol>
+						</div>
+					</p>
+				</div>
+				<a href="#four" class="goto-next scrolly">Next</a>
+			</div>
+		</section>
+
+		<!-- Four -->
+		<section id="four" class="main special">
+			<div class="container">
+				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
+				<div class="content">
+					<header class="major">
 						<h2>Logistics &amp; Details</h2>
 					</header>
 					<p>
@@ -243,62 +292,13 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 						The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win top 3 prizes.
 					</p>
 				</div>
-				<a href="#four" class="goto-next scrolly">Next</a>
-			</div>
-		</section>
-
-		<!-- Four -->
-		<section id="four" class="main special">
-			<div class="container">
-				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
-				<div class="content">
-					<header class="major">
-						<h2>FAQ</h2>
-					</header>
-					<p>
-						<div style="width: 100%; max-width: 700px; margin: 0 auto;">
-							<ol style="text-align: left; margin-left: 30px;">
-								<li>
-									<b>What programming languages will be accepted?</b><br/>
-									C, C++, Python 2.7, Java 8
-								</li>
-								<!-- <li>
-									<b>How will the code be submitted?</b><br/>
-									Problems (also referred to as tasks) are submitted through cms (<a href="https://github.com/cms-dev/cms">https://github.com/cms-dev/cms</a>) the same system that handles submissions for IOI, FARIO, BOI, APIO, CEOI, and RMI. Submitted programs are run in a sandbox with the following compilation commands (file <code>Batch</code>):<br/>
-									C11: <code>/usr/bin/gcc -DEVAL -std=c11 -O2 -pipe -static -s -o Batch Batch.c -lm</code><br/>
-									C++11: <code>/usr/bin/g++ -DEVAL -std=c++11 -O2 -pipe -static -s -o Batch Batch.cpp</code><br/>
-									Python: <code>/usr/bin/python2 -m py_compile Batch.py &amp;&amp; /bin/mv Batch.pyc Batch</code><br/>
-									Java: <code>/usr/bin/javac Batch.java &amp;&amp; /bin/bash -c /usr/bin/jar cf Batch.jar *.class &amp;&amp; /bin/mv Batch.jar Batch</code>
-								</li>
-								<li>
-									<b>What are the input and output formats?</b><br/>
-									Input will be read through stdin and output will be printed out to stdout for every language. For each problem, there will be sample input/output examples as well as a brief on the format of input and expected output.
-								</li> -->
-								<li>
-									<b>Is there a team limit?</b><br/>
-									Teams may consist of 1-3 people.
-								</li>
-								<li>
-									<b>May we bring our own computers? If so, is there a limit on number of computers per team?</b><br/>
-									Contestants are encouraged to bring their own computers. Each team will be limited to 1 computer only (that is, 1 display and 1 keyboard).
-								</li>
-                                <li>
-                                    <b>Is there a sample problem?</b>
-                                    <br/>
-                                    A sample problem for sfcode can be found <a href="assets/sfcodeSample.pdf">here</a>.
-                                </li>
-							</ol>
-						</div>
-					</p>
-				</div>
-				<a href="#five" class="goto-next scrolly">Next</a>
+				<a href="#seven" class="goto-next scrolly">Next</a>
 			</div>
 		</section>
 
 		<!-- Five -->
-		<section id="five" class="main special">
+		<!-- <section id="five" class="main special">
 			<div class="container">
-				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 				<div class="content">
 					<header class="major">
 						<h2>Sign Up</h2>
@@ -312,30 +312,29 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 				</div>
 				<a href="#six" class="goto-next scrolly">Next</a>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- Six -->
-		<section id="six" class="main special">
+		<!-- <section id="six" class="main special">
 			<div class="container">
-				<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
 				<div class="content">
 					<header class="major">
 						<h2>Supporting Partners</h2>
 					</header>
 					<p>
 						Partners provide support for the sfcode Programming Invitational in different forms.<br/><br/>
-						<!-- <div class="12u$">
+						<div class="12u$">
 						<ul class="actions">
 						<li><a target="_blank" href="assets/sfcode Partnership Packet.pdf"><input type="submit" value="Partnership Packet" class="special"/></a></li>
 						</ul>
-						</div> -->
+						</div>
 						If you’re interested in a partnership,<br/>please email <a href="mailto:sfhacks@sfhs.com">sfhacks@sfhs.com</a><br/>
 						or contact our moderator, Larry Steinke<br/><a href="mailto:larrysteinke@sfhs.com">larrysteinke@sfhs.com</a> – 650-210-2431
 					</p>
 				</div>
 				<a href="#seven" class="goto-next scrolly">Next</a>
 			</div>
-		</section>
+		</section> -->
 
 		<!-- Seven -->
 		<section id="seven" class="main special">
@@ -482,6 +481,25 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 		var $customnavwrap = $('#custom-nav-wrap');
 		var $custommenu = $('#custom-menu');
 		var $custommain = $('#custom-main');
+
+		var toggled = true;
+		var offset = 0;
+		if (mobile()) offset = 25;
+		$customnav.click(function () {
+			if (toggled) {
+				$custommenu.css('top', (-400 + offset) + 'px');
+				$customnav.css('top', offset + 'px');
+				$customnavimg.css('background-image', "url('images/icons/hamburger.png')");
+			} else {
+				$custommenu.css('top', offset + 'px');
+				$customnav.css('top', (400 + offset) + 'px');
+				$customnavimg.css('background-image', "url('images/icons/up.png')");
+			}
+			toggled = !toggled;
+		});
+		$customnav.click();
+		$custommenu.click(function () { if (window.innerWidth <= 1100) $customnav.click(); });
+
 		var $resize = function () {
 			$customnav.css('position', 'fixed');
 			if (window.innerWidth < 800) {
@@ -518,27 +536,39 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			}
 			var height = 400 / $custommenu.children().length;
 			$custommenu.children().css('height', height + 'px');
+
+			if (window.innerWidth > 1100) {
+				$customnav.css('display', 'none');
+				$custommenu.children().css({
+					width: (window.innerWidth / $custommenu.children().length) + 'px',
+					borderRight: '1px solid #555',
+					display: 'inline-block'
+				});
+				$custommenu.css({
+					height: height + 'px',
+					background: 'url("images/overlay.png"), url("images/navPanel.svg"), -webkit-linear-gradient(top, rgba(80, 80, 80, 0.8), rgba(20, 20, 20, 0.8))'
+				});
+				setTimeout(function () {
+					$custommenu.css('top', '0px');
+				}, 300);
+			} else {
+				$customnav.css('display', 'block');
+				if (!toggled) $custommenu.css('opacity', '0').css('top', '-400px');
+				setTimeout(function () {
+					$custommenu.css({
+						height: '400px',
+						background: 'url("images/overlay.png"), url("images/navPanel.svg"), -webkit-linear-gradient(top, rgba(80, 80, 80, 1), rgba(20, 20, 20, 1))',
+						opacity: '1'
+					}).children().css({
+						width: '100%',
+						borderRight: 'none',
+						display: 'block'
+					});
+				}, 300);
+			}
 		};
 		$(window).resize($resize);
 		setTimeout($resize, 500);
-
-		var toggled = true;
-		var offset = 0;
-		if (mobile()) offset = 25;
-		$customnav.click(function () {
-			if (toggled) {
-				$custommenu.css('top', (-400 + offset) + 'px');
-				$customnav.css('top', offset + 'px');
-				$customnavimg.css('background-image', "url('images/icons/hamburger.png')");
-			} else {
-				$custommenu.css('top', offset + 'px');
-				$customnav.css('top', (400 + offset) + 'px');
-				$customnavimg.css('background-image', "url('images/icons/up.png')");
-			}
-			toggled = !toggled;
-		});
-		$customnav.click();
-		$custommenu.click(function () { $customnav.click(); });
 
 		$('a.goto-next.scrolly').click(function () {
 			var id = $(this).attr('href');

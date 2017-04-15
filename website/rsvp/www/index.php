@@ -2,7 +2,7 @@
 
 $id = end($pathFragments = explode('/', parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)));
 if ($id == 'admin' && is_string(@$_GET['username']) && is_string(@$_GET['password'])) {
-    if ($_GET['username'] == '...' && $_GET['password'] == '...') {
+    if ($_GET['username'] == 'sfhacksAdmin' && $_GET['password'] == '8yGJ6VHB') {
         $teams = json_decode(file_get_contents('../data.json'), true);
         die(json_encode([
             'status' => 'success',
