@@ -186,7 +186,8 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 			<div class="container" id="topbarcont" style="padding: 0; width: 70%; margin: auto; left: 15%; height: 127px; background-color: rgba(255, 255, 255, 0);">
 				<div style="display: table; vertical-align: middle; width: 100%; height: 100%; margin: 0 auto; background-color: rgba(255, 255, 255, 0.95)">
 					<ul class="actions" style="display: table-cell; vertical-align: middle;">
-						<li><a href="#one" class="button special scrolly goto-next">Learn More</a></li>
+						<li><a href="#one" class="button special scrolly goto-next" style="width: 225px;">Learn More</a></li>
+						<li><a target="_blank" href="assets/sfcodeSample.pdf" class="button special scrolly goto-next" style="width: 225px;">Sample Problem</a></li>
 					</ul>
 				</div>
 			</div>
@@ -250,6 +251,10 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 									Teams may consist of 1-3 people.
 								</li>
 								<li>
+									<b>Is participation free?</b><br/>
+									No, the cover charge is <b>$10/person</b>. Please bring this with you to the event.
+								</li>
+								<li>
 									<b>May we bring our own computers? If so, is there a limit on number of computers per team?</b><br/>
 									Contestants are encouraged to bring their own computers. Each team will be limited to 1 computer only (that is, 1 display and 1 keyboard).
 								</li>
@@ -289,7 +294,7 @@ if (is_string(@$_POST['name']) && is_string(@$_POST['email']) && is_string(@$_PO
 								<li><u>1:45 PM – 2:30 PM</u>: Closing Ceremony</li>
 							</ul>
 						</div>
-						The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win top 3 prizes.
+						The competition will have two divisions, <b>Advanced</b> and <b>Novice</b>, each with an opportunity to win top 3 prizes. The cover charge is <b>$10/person</b> and must be presented at the door.
 					</p>
 				</div>
 				<a href="#seven" class="goto-next scrolly">Next</a>
