@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class task08 {
+public class Task08 {
 	
 	static int N; 
 	static int M;
