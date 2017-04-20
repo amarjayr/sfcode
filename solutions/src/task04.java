@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
-/**
- * Created by arnavgudibande on 2/17/17.
- */
-
-public class task02 {
+public class task04 {
 
     public static String alpha = "abcdefghijklmnopqrstuvwxyz";
 
