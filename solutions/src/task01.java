@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Created by arnavgudibande on 2/17/17.
  */
 
-public class prob01 {
+public class task01 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Scanner;
  * Created by arnavgudibande on 2/17/17.
  */
 
-public class prob02 {
+public class task02 {
 
     public static String alpha = "abcdefghijklmnopqrstuvwxyz";
 

@@ -1,7 +1,6 @@
 import java.util.*;
-import java.io.*;
 
-public class Task11 {
+public class task11 {
 	
 	static class Point{
 		public int x,y;
