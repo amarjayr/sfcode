@@ -98,5 +98,5 @@ users:
     ip: null 
 token_mode: disabled
 start: 1492880400
-stop: 1492891200
+stop: 1492889400
 min_*_interval: 10
