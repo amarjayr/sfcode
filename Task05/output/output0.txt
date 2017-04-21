@@ -1,1 +1,8 @@
-The Force is strong with Joe
+false
+true
+true
+false
+false
+true
+true
+false
