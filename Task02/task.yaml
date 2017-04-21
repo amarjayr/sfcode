@@ -1,0 +1,11 @@
+name: "Task02"
+title: "These aren’t the droids..."
+time_limit: 1
+memory_limit: 128
+n_input: 1
+public_testcases: "0"
+infile: ""
+outfile: ""
+primary_language: "en"
+total_value: 30
+score_mode: "max"

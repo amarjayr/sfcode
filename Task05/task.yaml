@@ -1,0 +1,11 @@
+name: "Task05"
+title: "A Stormtrooper’s Prime Concern"
+time_limit: 1
+memory_limit: 128
+n_input: 1
+public_testcases: "0"
+infile: ""
+outfile: ""
+primary_language: "en"
+total_value: 100
+score_mode: "max"

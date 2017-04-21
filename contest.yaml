@@ -1,0 +1,102 @@
+name: "sfcode"
+description: "The Saint Francis High School Programming Invitational | Saturday, April 22, 2017"
+tasks:
+  - "Task00"
+users:
+  - username: "SyntaxTerror" 
+    password: "QTqGPDdXzR" 
+    ip: null 
+  - username: "RobertDROPTABLEStudents" 
+    password: "e2Vchs72wC" 
+    ip: null 
+  - username: "THECLOWNS" 
+    password: "RLLZwB9xLf" 
+    ip: null 
+  - username: "MontaVistaBoys" 
+    password: "vssHcsUL9g" 
+    ip: null 
+  - username: "Callback" 
+    password: "3feM98UHGT" 
+    ip: null 
+  - username: "Hogwarts" 
+    password: "AQv5xZEGwc" 
+    ip: null 
+  - username: "SHSFire" 
+    password: "z8Az97wtMK" 
+    ip: null 
+  - username: "Error404" 
+    password: "6zGCmatwLE" 
+    ip: null 
+  - username: "DavisSeniorHighCSC1" 
+    password: "2ezC96aVDa" 
+    ip: null 
+  - username: "JustinLiCarry" 
+    password: "tYLsY8SZCk" 
+    ip: null 
+  - username: "ACEprepCupertino" 
+    password: "GkPRHXwX65" 
+    ip: null 
+  - username: "ACEprepDublin" 
+    password: "UnhdqXaZnG" 
+    ip: null 
+  - username: "MMC" 
+    password: "nTp8wFhxJh" 
+    ip: null 
+  - username: "DavisSeniorHighCSC2" 
+    password: "ADkH4UBhTt" 
+    ip: null 
+  - username: "31415" 
+    password: "xYmN6AbXqf" 
+    ip: null 
+  - username: "kek" 
+    password: "mGkPmR6k97" 
+    ip: null 
+  - username: "ApesofWrath" 
+    password: "VXAfHyn9p6" 
+    ip: null 
+  - username: "MC2" 
+    password: "arf4nK6Lu3" 
+    ip: null 
+  - username: "Saratoga" 
+    password: "7T9EJHdBbE" 
+    ip: null 
+  - username: "Naan" 
+    password: "Zt8tAT4jJg" 
+    ip: null 
+  - username: "Gold" 
+    password: "DVxdfFFYsV" 
+    ip: null 
+  - username: "KS" 
+    password: "yyvDux5gAS" 
+    ip: null 
+  - username: "ColesLaw" 
+    password: "eUW3VNRUus" 
+    ip: null 
+  - username: "BoviniaStateUniversity" 
+    password: "4kczbvsS48" 
+    ip: null 
+  - username: "TeamWilliamandJake" 
+    password: "LvU7gQFA2V" 
+    ip: null 
+  - username: "ST1" 
+    password: "cZk4p8HCGy" 
+    ip: null 
+  - username: "dv1" 
+    password: "kYSMEWbmxG" 
+    ip: null 
+  - username: "sidd" 
+    password: "eMDfeJdbbw" 
+    ip: null 
+  - username: "SFbrogrammers" 
+    password: "NkQELcLgCh" 
+    ip: null 
+  - username: "coderBears" 
+    password: "4rhZXTRUJr" 
+    ip: null 
+  - username: "threeBears" 
+    password: "5AAA7mNTjm" 
+    ip: null 
+token_mode: disabled
+start: 1492880400
+stop: 1492891200
+min_*_interval: 10
