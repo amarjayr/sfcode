@@ -2,8 +2,8 @@ name: "Task04"
 title: "Imperial Transmissions"
 time_limit: 1
 memory_limit: 128
-n_input: 1
-public_testcases: "0"
+n_input: 4
+public_testcases: "0, 1, 2, 3"
 infile: ""
 outfile: ""
 primary_language: "en"
