@@ -20,5 +20,6 @@
 {[no] [Cellar]}
 {[no] [Lounge]}
 {[no] [Kitchen]}
+{[no] [Mrs. Peacock]}
 {[no] [Study]}
 {[no] [Hall]}
