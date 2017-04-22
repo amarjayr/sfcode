@@ -1,1 +1,16 @@
-Joe
+{[Suspects] : [Darth Vader] [Luke] [Han Solo] [Yoda]}
+{[Weapons] : [Force] [LightSabe] [Blaster]}
+{[Locations] : [Mos Eisley Cantina] [Death Star] [Dagobah] [Death Star II] [Echo Base]}
+{[Han Solo], [Mos Eisley Cantina] => [Blaster]}
+{[Force], [Death Star II] => [Darth Vader]}
+{[Han Solo], [LightSabe] => [Echo Base]}
+{[Yoda], [Dagobah] => [Force]}
+{[LightSabe], [Death Star] => [Darth Vader]}
+{[yes] [Death Star II]}
+{[no] [Blaster]}
+{[no] [Luke]}
+{[yes] [Darth Vader]}
+{[no] [Force]}
+{[no] [Dagobah]}
+{[no] [Yoda]}
+{[yes] [LightSabe]}
