@@ -1,0 +1,24 @@
+{[Suspects] : [Miss Scarlet] [Professor Plum] [Mrs. Peacock] [Reverend Mr Green] [Colonel Mustard] [Mrs. White]}
+{[Weapons] : [Candlestick] [Dagger] [Lead pipe] [Revolver] [Rope] [Wrench]}
+{[Locations] : [Kitchen] [Ballroom] [Conservatory] [Dining Room] [Cellar] [Billiard Room] [Library] [Lounge] [Hall] [Study]}
+{[Miss Scarlet], [Revolver] => [Study]}
+{[Professor Plum], [Conservatory] => [Lead pipe]}
+{[Dagger], [Mrs. Peacock] => [Kitchen]}
+{[Candlestick], [Library] => [Reverend Mr Green]}
+{[Cellar], [Colonel Mustard] => [Wrench]}
+{[Lounge], [Rope] => [Mrs. White]}
+{[no] [Billiard Room]}
+{[no] [Rope]}
+{[no] [Ballroom]}
+{[no] [Professor Plum]}
+{[no] [Candlestick]}
+{[no] [Revolver]}
+{[no] [Library]}
+{[no] [Dining Room]}
+{[no] [Lead pipe]}
+{[no] [Colonel Mustard]}
+{[no] [Cellar]}
+{[no] [Lounge]}
+{[no] [Kitchen]}
+{[no] [Study]}
+{[no] [Hall]}
