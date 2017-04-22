@@ -1,0 +1,12 @@
+{[Suspects] : [Doctor Joe] [Mom] [Teacher]}
+{[Weapons] : [Knife] [Needle] [Mop] [Soap and Water]}
+{[Locations] : [Kitchen] [ER]}
+{[Doctor], [ER] => [Needle]}
+{[Mom], [Mop] => [Kitchen]}
+{[no] [Mop]}
+{[yes] [Doctor]}
+{[no] [Teacher]}
+{[no] [Mom]}
+{[no] [Kitchen]}
+{[yes] [ER]}
+{[yes] [Needle]}
