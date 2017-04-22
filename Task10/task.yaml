@@ -1,6 +1,6 @@
 name: "Task10"
 title: "Han in Hyperspace"
-time_limit: 1
+time_limit: 3
 memory_limit: 128
 n_input: 2
 public_testcases: "0, 1"
