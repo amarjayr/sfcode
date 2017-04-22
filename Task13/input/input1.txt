@@ -1,4 +1,4 @@
-{[Suspects] : [Doctor Joe] [Mom] [Teacher]}
+{[Suspects] : [Doctor] [Mom] [Teacher]}
 {[Weapons] : [Knife] [Needle] [Mop] [Soap and Water]}
 {[Locations] : [Kitchen] [ER]}
 {[Doctor], [ER] => [Needle]}
